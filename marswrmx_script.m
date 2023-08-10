@@ -50,7 +50,7 @@ fprintf('   Input : Number of Pulses Integrated ..... %6.1d\n',det_prob(1,2));  
 fprintf('   Input : False-Alarm Probability ......... %6.1f\n',det_prob(1,3));  % Return 1 if error 
 fprintf('   Input : Swerling Case ................... %6.1d\n',det_prob(1,4));  % Return 1 if error 
 fprintf('   Output : Probability of Detection ....... %6.1f\n',det_prob(2,1));  % probability of detection
-fprintf('   Output : Threshold (dB) ................. %6.1f\n',det_prob(2,2));  % threshold 
+fprintf('   Output : Threshold bias level (dB) ...... %6.1f\n',det_prob(2,2));  % threshold bias level
 fprintf('   Output :Fortran MARSWR.FOR error status . %6.1d\n',det_prob(2,3));  % Return 1 if error 
 
 

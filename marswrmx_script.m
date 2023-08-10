@@ -39,7 +39,7 @@ clear mex % Important - prevent variable persitence for successive mex calls
 
 % ************************************************************************
 
-%     MARSWR OUTPUT VALUES in 2X6 array
+%     MARSWR OUTPUT VALUES in 2X4 array
 %   
 
 fprintf(' ***************************************************  \n');

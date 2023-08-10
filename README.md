@@ -2,10 +2,9 @@
 ----------------------------------------------------------------------------
                                 rangemx 
                                 
-rangemx is a Matlab mex function which call L. V. Blake 1972  
-RGCALC Radar Range Calculation Fortran program  
+rangemx is a Matlab callable function of fortran program RGCALC which calculate the range of a pulse radar 
 
-  rangemx.mexmaci64 for Mac OS 64 bit
+Radar range
 
 Ref.:
 
@@ -29,16 +28,17 @@ Ref.:
 -------------------------------------------------------------------------
                                   marswrmx 
 
-marswrmx is a Matlab mex function which call Fehlner's MARCUM fortran subroutine 
-renamed MARSWR and adapted by L.V. Blake for the RGCALC program
+marswrmx is a Matlab callable function of fortran subroutine MARSWR which is Fehlner's MARCUM fortran subroutine 
+adapted by L.V. Blake for the RGCALC program. 
 
-  marswrmx.mexmaci64 for Mac OS 64 bit 
+Probability of detection 
   
 Ref.: 
+
       NRL Report 7448
       A Fortran Computer Program to Calculate the Range of a Pulse Radar
       L. V. Blake  August 28, 1972
-
+      
       Applied Physics Laboratory Report TG-451
       Marcum and Swerling's Data on Target Detection by a Pulsed Radar
       Fehlner, L.F.  July 1962
